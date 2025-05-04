@@ -1,0 +1,80 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Nacional"
+    },
+    {
+      "id": 2,
+      "name": "Importado"
+    },
+    {
+      "id": 3,
+      "name": "Produção Própria"
+    },
+    {
+      "id": 4,
+      "name": "Pessoal"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Sucrilhos Cereal",
+      "description": "Cereal incrivel",
+      "price": 12.5,
+      "category": {
+        "id": 1,
+        "name": "Nacional"
+      },
+      "promotion": true,
+      "newproduct": false
+    },
+    {
+      "id": 2,
+      "name": "Omo",
+      "description": "Sabonete em pó",
+      "price": 9.8,
+      "category": {
+        "id": 2,
+        "name": "Importado"
+      },
+      "promotion": false,
+      "newproduct": true
+    },
+    {
+      "category": {
+        "id": 2,
+        "name": "Importado"
+      },
+      "price": "1",
+      "description": "1",
+      "name": "1",
+      "id": 3
+    },
+    {
+      "name": "torresmo",
+      "description": "AAAAAAAAAAAAAAAAA",
+      "price": "1000",
+      "category": {
+        "id": 2,
+        "name": "Importado"
+      },
+      "promotion": true,
+      "newproduct": true,
+      "id": 4
+    },
+    {
+      "name": "Contra-Filé",
+      "description": "Carne macia de bovinos",
+      "price": "30",
+      "category": {
+        "id": 1,
+        "name": "Nacional"
+      },
+      "promotion": true,
+      "newproduct": false,
+      "id": 5
+    }
+  ]
+}
